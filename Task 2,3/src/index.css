@@ -1,0 +1,25 @@
+.one{
+  max-width:400px;
+  background: palegreen;
+  font-size: 30px;
+  border-radius: 20px;
+  border: 4px solid teal;
+}
+.One{
+  text-align: center;
+  padding: 1%;
+  color: purple;
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+  font-style: italic;
+}
+/*.One{
+  color: blue;
+  font-size: 24px;
+}
+.one{
+  margin: 30%;
+  border: 3px dotted brown;
+  border-radius: 5%;
+  padding:2%;
+  width: 400px;
+}*/
