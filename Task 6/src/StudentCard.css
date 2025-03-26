@@ -1,0 +1,35 @@
+
+.student-card {
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    max-width: fit-content;
+    display: inline-block;
+}
+.freshman {
+    background-color: #bfdbfe; 
+  }
+  
+  .sophomore {
+    background-color: #bbf7d0; 
+  }
+  
+  .junior {
+    background-color: #fef08a; 
+  }
+  
+  .senior {
+    background-color: #fecaca; 
+  }
+  
+  .default {
+    background-color: rgb(198, 169, 145); 
+  }
+.student-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,51 @@
+.student-card {
+    width: 280px;
+    min-height: 180px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s, box-shadow 0.3s;
+    color: #fff; 
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+.student-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.year-freshman {
+    background: rgb(227, 164, 108)   
+}
+
+.year-sophomore {
+    background: #99c7e2;      
+}
+.year-senior {
+    background: #f39ddb;      
+}
+
+.year-junior {
+    background: #82d587;     
+}
+
+.year-senior {
+    background: #d5a06b;     
+}
+.year-unknown {
+    background: #dd8686;       
+}
+.student-name, .student-year, .student-major {
+    margin: 5px 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+@media (max-width: 768px) {
+    .student-card {
+        width: 100%;
+        min-height: 160px;
+    }
+}

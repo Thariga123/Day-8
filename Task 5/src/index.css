@@ -1,0 +1,19 @@
+.one{
+  margin: 10%;
+  background:rgb(216, 181, 216);
+  width: fit-content;
+  border: 3px maroon ;
+  border-style:dashed ;
+  
+}
+.One{
+  color: rgb(2, 63, 63);
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+.Hr{
+  border: 1px rgb(2, 63, 63) ;
+  border-style:ridge;
+}
